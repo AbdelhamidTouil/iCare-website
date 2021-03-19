@@ -1,4 +1,4 @@
-
+/*font family*/
 *{
 	font-family: 'Poppins', sans-serif;
 }
@@ -56,7 +56,7 @@ li {
 	margin-top: 20px;
 }
 
-#userBox{border-radius: 20px; border-style: none;}
+
 #b1{position: fixed;top:520px; left:1250px;border-style: none;}
 
 
@@ -254,7 +254,7 @@ textarea{border-style: none;border-radius: 20px;}
 	margin-right: 3px;
 	margin-bottom: 5px;
   }
-  /*************************/
+  /*********chatbot****************/
   #di {
 	background-color:#6E78F7;
 	width: 15%;
@@ -265,11 +265,12 @@ textarea{border-style: none;border-radius: 20px;}
 	
 }
 #b1{position: fixed;top:520px; left:1250px;}
-.message{font-size: 5ch;color: rgb(0, 140, 255);}
+.message{font-size: 5ch;color: rgb(0, 140, 255); background-color:transparent;}
 #userBox{background-color: rgb(204, 184, 184);}
 
 #chatLog{color:white; margin-left: 50px;padding-top: 13px;}
-/*****************************************/
+#userBox{border-radius: 20px; border-style: none;}
+/****************end chatbot*************************/
 
 @media(max-width:375px) {
 

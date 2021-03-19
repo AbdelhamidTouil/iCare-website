@@ -1,101 +1,23 @@
-#image
-{
-   width: 300px;
-   height:350px;
-    position: relative;
-    bottom:10px;
 
-    border-radius: 50px;
-}
-
-.image1
-{
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    left:0px;
-    top: 0px;
-    
-}
-
-
-h4
-{
-    color:blueviolet;
-    text-align: center;
-     margin-bottom: 60px;
-    
-}
-h5
-{
-  color:blueviolet;
-}
-
-
-span
-{
-  color:rgb(80,80, 80);
-}
-
-/*********************** NAVBAR **************************************************************/
-.navbar{
-    width:50% !important;
-    margin:0px auto;
-    left:0;
-    right:0;
-    padding:0;
-    margin-top: 80px;
-    margin-bottom: 40px;
-}
-li
-{
-
-margin-left: 50px;
-font-size: 24px;
-}
-.collapse
-{
-   display: flex; justify-content: center;
-background-color: white;
-box-shadow: 5px 12px 8px #dbdbd8;
-border-radius: 20px;
-}
-
-#app
-{
-  color:blue;
-}
-
-#app1:hover
-{
-  color:pink;
-}
-
-/***********************************************************************************************/
-
-#un
-{
-    margin-bottom: 40px;
-}
-
-i
-{
-
-font-size: 2rem;
-color: blue;
-
-}
-
-.dii
-{
-  display: grid;
-  grid-template-columns: 50px 200px;
-}
-
-/*************/
-/* Footer left */
+.footer-distributed {
+	background-color:#6E78F7;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+  }
   
-.footer-distributed .footer-left {
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+	display: inline-block;
+  
+  }
+  
+  /* Footer left */
+  
+  .footer-distributed .footer-left {
 	width: 40%;
   }
   
@@ -233,29 +155,140 @@ color: blue;
 	margin-right: 3px;
 	margin-bottom: 5px;
   }
+
+
+/* chatbot*/
+/*************************/
+#di {
+	background-color:#6E78F7;
+	width: 15%;
+	padding-left: 13px;
+	padding-bottom: 12px;
+	border-radius: 20px;
+	position: fixed;top:300px; left:1050px;
+	
+}
+
+#userBox{border-radius: 20px; border-style: none;}
+
+textarea{border-style: none;border-radius: 20px;}
+#b1{position: fixed;top:520px; left:1250px;border-style: none;}
+.message{font-size: 5ch;color: rgb(0, 140, 255);background-color: transparent;}
+#userBox{background-color: rgb(204, 184, 184);}
+#chatLog{color:white; margin-left: 50px;padding-top: 13px;}
+/*******************************/
+*{
+	font-family: 'Poppins', sans-serif;
+}
+#image
+{
+   width: 300px;
+   height:350px;
+    position: relative;
+    bottom:10px;
+
+    border-radius: 50px;
+}
+
+.image1
+{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left:0px;
+    top: 0px;
+    
+}
+
+
+h4
+{
+    color:blueviolet;
+    text-align: center;
+     margin-bottom: 60px;
+    
+}
+h5
+{
+  color:blueviolet;
+}
+
+
+span
+{
+  color:rgb(80,80, 80);
+}
+
+/*********************** NAVBAR **************************************************************/
+.navbar{
+    width:50% !important;
+    margin:0px auto;
+    left:0;
+    right:0;
+    padding:0;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+li
+{
+
+margin-left: 50px;
+font-size: 20px;
+}
+.collapse
+{
+   display: flex; justify-content: center;
+background-color: white;
+box-shadow: 5px 12px 8px #dbdbd8;
+border-radius: 20px;
+}
+
+#app
+{
+  color:blue;
+}
+
+#app1:hover
+{
+  color:pink;
+}
+
+/***********************************************************************************************/
+
+#un
+{
+    margin-bottom: 40px;
+}
+
+i
+{
+
+font-size: 2rem;
+color: blue;
+
+}
+#ff{color: rgb(0, 140, 255);}
+.dii
+{
+  display: grid;
+  grid-template-columns: 50px 200px;
+}
+
+/*************/
+/* Footer left */
   
-
+.footer-distributed .footer-left {
+	width: 40%;
+  }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  /* The company logo */
+  
+  .footer-distributed h3 {
+	color: #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+  }
 /*******************************MOBIIILE****************************************************************/
-
 @media screen and (max-width: 400px)
 
  {
@@ -284,8 +317,6 @@ color: blue;
 }
 
   }
-
-
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
