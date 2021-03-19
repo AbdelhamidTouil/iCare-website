@@ -1,0 +1,4 @@
+[0317/131639.751:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’acces specifie est introuvable. (0x3)
+[0317/145405.162:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’acces specifie est introuvable. (0x3)
+[0318/124721.769:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’acces specifie est introuvable. (0x3)
+[0318/214428.869:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’acces specifie est introuvable. (0x3)
