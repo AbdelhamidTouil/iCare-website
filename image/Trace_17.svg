@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="317.817" height="317.817" viewBox="0 0 317.817 317.817">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.528" y1="0.064" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6e78f7" stop-opacity="0.02"/>
+      <stop offset="1" stop-color="#868df5"/>
+    </linearGradient>
+    <filter id="Tracé_17" x="0" y="0" width="317.817" height="317.817" filterUnits="userSpaceOnUse">
+      <feOffset dx="11" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Tracé_17)">
+    <path id="Tracé_17-2" data-name="Tracé 17" d="M119.493,128.652l3,218.875c0,36.283-27.414,65.7-61.232,65.7S.03,383.81.03,347.527l.256-99.341Z" transform="translate(296.17 -78.99) rotate(45)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
